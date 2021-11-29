@@ -31,6 +31,28 @@
         li:first-child{
             color: blue;
         }
+        h1:hover{
+            color: red;
+        }
+
+        /*Pseudo Element - select specific part of a selected element text*/
+        p::first-letter {
+            font-size: 50px;
+            color: red;
+        }
+
+        p::selection {
+            background-color: red;
+            color: white;
+        }
+
+        li::marker {
+            color: orange;
+        }
+
+        p::first-line {
+            color: blue;
+        }
 
 
     </style>
