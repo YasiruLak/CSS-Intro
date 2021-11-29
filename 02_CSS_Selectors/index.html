@@ -4,16 +4,49 @@
     <meta charset="UTF-8">
     <title>CSS Selectors</title>
     <style>
+
+        /*Type Selector*/
+        h1{
+            color: red;
+            font-size: 90px;
+        }
         /*Universal Selector*/
         *{
             color: green;
             font-size: 50px;
         }
+        /*ID Selector*/
+        #my-header{
+            color: aquamarine;
+        }
+        /*Class Selector*/
+        .selectedPara {
+            color: blue;
+            font-size: 40px;
+        }
+        /*Attribute Selector*/
+        [class]{
+            color: red;
+        }
+
+
     </style>
 </head>
 <body>
 <header>
-    <h1>Hello There..!</h1>
+    <h1 id="my-header" class="selectedPara">Hello There..!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam consequatur culpa distinctio
+        dolore, doloremque eum harum illo iste modi molestiae nisi nulla odit pariatur sed vitae voluptas. Esse,
+        perferendis?</p>
+    <p class="selectedPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam consequatur culpa distinctio
+        dolore, doloremque eum harum illo iste modi molestiae nisi nulla odit pariatur sed vitae voluptas. Esse,
+        perferendis?</p>
+    <p class="selectedPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam consequatur culpa distinctio
+        dolore, doloremque eum harum illo iste modi molestiae nisi nulla odit pariatur sed vitae voluptas. Esse,
+        perferendis?</p>
+    <p class="selectedPara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam consequatur culpa distinctio
+        dolore, doloremque eum harum illo iste modi molestiae nisi nulla odit pariatur sed vitae voluptas. Esse,
+        perferendis?</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam consequatur culpa distinctio
         dolore, doloremque eum harum illo iste modi molestiae nisi nulla odit pariatur sed vitae voluptas. Esse,
         perferendis?</p>
