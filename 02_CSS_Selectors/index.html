@@ -54,6 +54,34 @@
             color: blue;
         }
 
+        /*change list style*/
+         li{
+             list-style: lower-roman;
+         }
+
+        /* CSS Combinators - use to combine different css selectors and select*/
+
+                /*Descendant Combinator (Child)*/
+                #b header h1 {
+                    color: white;
+                    background-color: red;
+                }
+
+                /*Child Combinator (Direct Child)*/
+                body > header > h1 {
+                    color: red;
+                }
+
+        /*Adjacent combinator*/
+        h1 + p {
+            color: red;
+        }
+
+        /*General Siblings Combinator*/
+        h1 ~ p {
+            color: red;
+        }
+
 
     </style>
 </head>
