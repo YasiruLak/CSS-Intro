@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01_Basic/01_Basic.iml" filepath="$PROJECT_DIR$/01_Basic/01_Basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/02_CSS_Selectors/02_CSS_Selectors.iml" filepath="$PROJECT_DIR$/02_CSS_Selectors/02_CSS_Selectors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_CSS_Traversing/03_CSS_Traversing.iml" filepath="$PROJECT_DIR$/03_CSS_Traversing/03_CSS_Traversing.iml" />
     </modules>
   </component>
 </project>
