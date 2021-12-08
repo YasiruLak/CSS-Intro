@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/02_CSS_Selectors/02_CSS_Selectors.iml" filepath="$PROJECT_DIR$/02_CSS_Selectors/02_CSS_Selectors.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_CSS_Traversing/03_CSS_Traversing.iml" filepath="$PROJECT_DIR$/03_CSS_Traversing/03_CSS_Traversing.iml" />
       <module fileurl="file://$PROJECT_DIR$/04_Cascade/04_Cascade.iml" filepath="$PROJECT_DIR$/04_Cascade/04_Cascade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_Box_Model/05_Box_Model.iml" filepath="$PROJECT_DIR$/05_Box_Model/05_Box_Model.iml" />
     </modules>
   </component>
 </project>
