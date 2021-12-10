@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Measurement Units</title>
+    <style>
+
+        /*
+        Absolute
+        px
+        cm
+        pc
+        in
+        mm
+
+        Relative
+        %
+        em
+        rem
+        vh
+        vw
+
+
+        */
+        section {
+            width: 400px;/*Not dependent*/
+            height: 300px;
+            border: 2px solid red;
+        }
+
+        section > div {
+            width: 50%; /* computed value 200px (depend on the nearest parent)*/
+            height: 50%;/*computed value 150px (depend on the nearest parent)*/
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <div>
+
+    </div>
+</section>
+</body>
+</html>
