@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex-Box Layout (Flexible Box Layout)</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <style>
+        body>section{
+            height: 300px;
+            border: 1px solid red;
+            position: relative;
+
+        }
+        section>div{
+            border: 1px solid green;
+            position: absolute;
+            height: 100%;
+            width: 25%;
+        }
+
+        section>div:nth-child(1){
+            left: 0;
+        }
+
+        section>div:nth-child(2){
+            left: 25%;
+        }
+
+        section>div:nth-child(3){
+            left: 50%;
+        }
+
+        section>div:nth-child(4){
+            right: 0;
+        }
+    </style>
+
+</head>
+<body>
+<h1>Flex-Box Layout (New Layouts)</h1>
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+</body>
+</html>
