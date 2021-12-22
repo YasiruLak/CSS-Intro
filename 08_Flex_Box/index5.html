@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex-Box Layout Etc:</title>
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <style>
+        body > section {
+            height: 300px;
+            border: 1px solid red;
+            position: relative;
+            display: flex;
+            /*flex-wrap: wrap;*/
+            /*flex-direction: column-reverse;!*row/column*!*/
+            /* align-items: center; !*cross axis (center | flex-start | flex-end)*!
+             justify-content: space-evenly; !*main axis / space-between - space-around - space-evenly - center*!*/
+        }
+
+        section > div {
+            border: 1px solid green;
+            height: 100px;
+            width: 100px;
+            flex-grow: 1;
+
+            /*flex-grow: 1;*/ /*can get flex container's full width for flex items*/
+            /*flex-shrink: 1; !*can compress a flex item in the container if it is overflow the container*!*/
+            /*flex-basis: 200px;*/
+        }
+
+        section > div:nth-child(1) {
+            /*flex-grow: 1;*/
+            flex-basis: 200px;
+            /*    flex: 1 0 100px;*/
+            order: 3;
+
+        }
+
+        section > div:nth-child(2) {
+            /*flex-grow: 2;*/
+            flex-basis: 200px;
+            order: 4;
+
+        }
+
+        section > div:nth-child(3) {
+            /*flex-grow: 1;*/
+            flex-basis: 200px;
+            order: 1;
+
+        }
+
+        section > div:nth-child(4) {
+            /*flex-grow: 1;*/
+            flex-basis: 200px;
+            order: 2;
+
+        }
+
+    </style>
+</head>
+<body>
+<h1>Flex-Box Layout (New Layouts)</h1>
+<section>
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+    <div>D</div>
+</section>
+
+</body>
+</html>

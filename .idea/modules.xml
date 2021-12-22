@@ -9,7 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/05_Box_Model/05_Box_Model.iml" filepath="$PROJECT_DIR$/05_Box_Model/05_Box_Model.iml" />
       <module fileurl="file://$PROJECT_DIR$/06_Messurement_Units/06_Messurement_Units.iml" filepath="$PROJECT_DIR$/06_Messurement_Units/06_Messurement_Units.iml" />
       <module fileurl="file://$PROJECT_DIR$/07_CSS_Positions/07_CSS_Positions.iml" filepath="$PROJECT_DIR$/07_CSS_Positions/07_CSS_Positions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Flex_Box/Flex_Box.iml" filepath="$PROJECT_DIR$/Flex_Box/Flex_Box.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_Flex_Box/08_Flex_Box.iml" filepath="$PROJECT_DIR$/08_Flex_Box/08_Flex_Box.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_Grid/09_Grid.iml" filepath="$PROJECT_DIR$/09_Grid/09_Grid.iml" />
     </modules>
   </component>
 </project>
