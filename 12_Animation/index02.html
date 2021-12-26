@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Animations</title>
+    <style>
+        section {
+            width: 200px;
+            height: 150px;
+            background-color: red;
+            animation-name: changeColors;
+            animation-duration:10s;
+            animation-delay: 10s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes changeColors {
+            0%,20% {
+                background-color: yellow;
+            }
+            25% {
+                background-color: green;
+            }
+            50% {
+                background-color: deeppink;
+            }
+            75% {
+                background-color: brown;
+            }
+            100% {
+                background-color: purple;
+            }
+        }
+    </style>
+</head>
+<body>
+<section></section>
+</body>
+</html>
