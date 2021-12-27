@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animation Example 3</title>
+  <style>
+    section {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      animation-name: test;
+      animation-duration: 5s;
+      position: relative;
+      animation-iteration-count: 1; /*1..9 | infinite*/
+      animation-direction: normal; /*reverse | alternate | alternate-reverse*/
+
+      /*last frame hold after ending the round*/
+      animation-fill-mode: forwards; /* none | forwards | backwards | both */
+    }
+
+    @keyframes test {
+      from {
+        left: 0;
+      }
+      to {
+        left: 500px;
+      }
+    }
+  </style>
+</head>
+<body>
+<section>
+
+</section>
+</body>
+</html>
